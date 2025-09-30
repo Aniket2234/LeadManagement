@@ -1,0 +1,68 @@
+/api/activities?limit=10:1  Failed to load resource: the server responded with a status of 500 ()
+index-CtSuDheY.js:345  GET https://lead-management-673bugtmf-aniket-ranes-projects.vercel.app/api/activities?limit=10 500 (Internal Server Error)
+zt @ index-CtSuDheY.js:345
+getActivities @ index-CtSuDheY.js:345
+queryFn @ index-CtSuDheY.js:349
+o @ index-CtSuDheY.js:48
+O @ index-CtSuDheY.js:48
+start @ index-CtSuDheY.js:48
+fetch @ index-CtSuDheY.js:48
+ju @ index-CtSuDheY.js:48
+onSubscribe @ index-CtSuDheY.js:48
+subscribe @ index-CtSuDheY.js:48
+(anonymous) @ index-CtSuDheY.js:48
+vP @ index-CtSuDheY.js:38
+Bf @ index-CtSuDheY.js:40
+Ya @ index-CtSuDheY.js:40
+S3 @ index-CtSuDheY.js:40
+qo @ index-CtSuDheY.js:40
+p_ @ index-CtSuDheY.js:40
+Li @ index-CtSuDheY.js:38
+(anonymous) @ index-CtSuDheY.js:40
+index-CtSuDheY.js:349 Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+(anonymous) @ index-CtSuDheY.js:349
+Bf @ index-CtSuDheY.js:40
+Ya @ index-CtSuDheY.js:40
+S3 @ index-CtSuDheY.js:40
+qo @ index-CtSuDheY.js:40
+p_ @ index-CtSuDheY.js:40
+Li @ index-CtSuDheY.js:38
+(anonymous) @ index-CtSuDheY.js:40
+index-CtSuDheY.js:345  POST https://lead-management-673bugtmf-aniket-ranes-projects.vercel.app/api/leads/68dbfe805e35ca7722e983bc/notes 404 (Not Found)
+zt @ index-CtSuDheY.js:345
+addNote @ index-CtSuDheY.js:345
+onSuccess @ index-CtSuDheY.js:349
+execute @ index-CtSuDheY.js:48
+await in execute
+mutate @ index-CtSuDheY.js:48
+(anonymous) @ index-CtSuDheY.js:48
+u @ index-CtSuDheY.js:349
+BF @ index-CtSuDheY.js:37
+UF @ index-CtSuDheY.js:37
+WF @ index-CtSuDheY.js:37
+zO @ index-CtSuDheY.js:37
+UO @ index-CtSuDheY.js:37
+(anonymous) @ index-CtSuDheY.js:37
+Pv @ index-CtSuDheY.js:40
+XS @ index-CtSuDheY.js:37
+Pm @ index-CtSuDheY.js:37
+am @ index-CtSuDheY.js:37
+aq @ index-CtSuDheY.js:37
+index-CtSuDheY.js:349 Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+(anonymous) @ index-CtSuDheY.js:349
+Bf @ index-CtSuDheY.js:40
+Ya @ index-CtSuDheY.js:40
+S3 @ index-CtSuDheY.js:40
+qo @ index-CtSuDheY.js:40
+p_ @ index-CtSuDheY.js:40
+Li @ index-CtSuDheY.js:38
+(anonymous) @ index-CtSuDheY.js:40
+index-CtSuDheY.js:349 Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+(anonymous) @ index-CtSuDheY.js:349
+Bf @ index-CtSuDheY.js:40
+Ya @ index-CtSuDheY.js:40
+S3 @ index-CtSuDheY.js:40
+qo @ index-CtSuDheY.js:40
+p_ @ index-CtSuDheY.js:40
+Li @ index-CtSuDheY.js:38
+(anonymous) @ index-CtSuDheY.js:40

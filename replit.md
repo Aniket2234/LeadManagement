@@ -12,14 +12,14 @@ LeadFlow is a comprehensive Lead Management System built with TypeScript, Expres
 - Tested frontend and backend: application loads successfully showing LeadFlow login page
 - Set up deployment configuration for Replit Autoscale with `build:full` and `start` commands
 - No LSP diagnostics or errors detected
-- **Fixed Vercel deployment reminders API**:
-  - Split catch-all route into explicit endpoints for better Vercel compatibility
-  - Created `api/reminders/index.ts` for base route (GET, POST)
-  - Created `api/reminders/[id].ts` for update route (PUT)
-  - Created `api/reminders/[id]/complete.ts` for complete action (POST, PUT)
+- **Fixed Vercel deployment - complete API restructure**:
+  - Split catch-all routes into explicit endpoints for better Vercel compatibility
+  - Created `api/reminders/index.ts`, `api/reminders/[id].ts`, `api/reminders/[id]/complete.ts`
+  - Created `api/leads/[id]/notes.ts` for lead notes functionality
+  - Fixed `api/activities.ts` imports to use new library location
   - Added extensive console logging throughout all endpoints for debugging
   - **Moved library files**: Relocated `api/lib/*` to `server/lib-vercel/*` to prevent Vercel from counting them as serverless functions
-  - Final serverless function count: **11 of 12** (Vercel Hobby plan limit)
+  - Final serverless function count: **12 of 12** (exactly at Vercel Hobby plan limit)
 
 # User Preferences
 

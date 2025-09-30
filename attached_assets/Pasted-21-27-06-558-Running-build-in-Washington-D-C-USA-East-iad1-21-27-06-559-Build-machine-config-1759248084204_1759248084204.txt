@@ -1,0 +1,72 @@
+21:27:06.558 Running build in Washington, D.C., USA (East) – iad1
+21:27:06.559 Build machine configuration: 2 cores, 8 GB
+21:27:06.644 Cloning github.com/Aniket2234/LeadManagement (Branch: main, Commit: 49bbafe)
+21:27:08.784 Cloning completed: 2.139s
+21:27:08.916 Restored build cache from previous deployment (BKAKkSXALtXg8HvdkzZg69LeSthu)
+21:27:09.566 Running "vercel build"
+21:27:09.965 Vercel CLI 48.1.6
+21:27:10.754 Running "install" command: `npm install`...
+21:27:12.664 
+21:27:12.665 up to date, audited 622 packages in 2s
+21:27:12.665 
+21:27:12.665 77 packages are looking for funding
+21:27:12.665   run `npm fund` for details
+21:27:12.689 
+21:27:12.689 5 vulnerabilities (3 moderate, 2 high)
+21:27:12.689 
+21:27:12.690 To address all issues (including breaking changes), run:
+21:27:12.690   npm audit fix --force
+21:27:12.690 
+21:27:12.690 Run `npm audit` for details.
+21:27:12.941 
+21:27:12.942 > rest-express@1.0.0 build
+21:27:12.942 > vite build
+21:27:12.943 
+21:27:13.260 [36mvite v6.3.6 [32mbuilding for production...[36m[39m
+21:27:13.670 transforming...
+21:27:13.703 Browserslist: browsers data (caniuse-lite) is 11 months old. Please run:
+21:27:13.704   npx update-browserslist-db@latest
+21:27:13.704   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+21:27:20.207 [32m✓[39m 2349 modules transformed.
+21:27:20.841 rendering chunks...
+21:27:20.854 computing gzip size...
+21:27:20.879 [2m../dist/public/[22m[32mindex.html                 [39m[1m[2m  1.95 kB[22m[1m[22m[2m │ gzip:   0.74 kB[22m
+21:27:20.879 [2m../dist/public/[22m[2massets/[22m[35mindex-B0Sce7Ft.css  [39m[1m[2m 66.18 kB[22m[1m[22m[2m │ gzip:  11.55 kB[22m
+21:27:20.879 [2m../dist/public/[22m[2massets/[22m[36mindex-CtSuDheY.js   [39m[1m[33m844.77 kB[39m[22m[2m │ gzip: 239.92 kB[22m
+21:27:20.880 [33m
+21:27:20.880 (!) Some chunks are larger than 500 kB after minification. Consider:
+21:27:20.880 - Using dynamic import() to code-split the application
+21:27:20.880 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+21:27:20.881 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+21:27:20.881 [32m✓ built in 7.59s[39m
+21:27:21.001 Installing dependencies...
+21:27:22.109 
+21:27:22.110 up to date in 1s
+21:27:22.111 
+21:27:22.111 77 packages are looking for funding
+21:27:22.111   run `npm fund` for details
+21:27:22.353 Using TypeScript 5.6.3 (local user-provided)
+21:27:31.294 Using TypeScript 5.6.3 (local user-provided)
+21:27:32.831 Using TypeScript 5.6.3 (local user-provided)
+21:27:34.309 Using TypeScript 5.6.3 (local user-provided)
+21:27:35.645 Using TypeScript 5.6.3 (local user-provided)
+21:27:36.969 Using TypeScript 5.6.3 (local user-provided)
+21:27:38.356 Using TypeScript 5.6.3 (local user-provided)
+21:27:39.704 Using TypeScript 5.6.3 (local user-provided)
+21:27:41.109 Using TypeScript 5.6.3 (local user-provided)
+21:27:42.455 Using TypeScript 5.6.3 (local user-provided)
+21:27:44.254 Using TypeScript 5.6.3 (local user-provided)
+21:27:44.267 api/activities.ts(2,27): error TS2307: Cannot find module './lib/db.js' or its corresponding type declarations.
+21:27:44.267 api/activities.ts(3,26): error TS2307: Cannot find module './lib/storage.js' or its corresponding type declarations.
+21:27:44.268 api/activities.ts(4,39): error TS2307: Cannot find module './lib/auth.js' or its corresponding type declarations.
+21:27:44.268 api/activities.ts(14,25): error TS7006: Parameter 'req' implicitly has an 'any' type.
+21:27:44.268 api/activities.ts(14,30): error TS7006: Parameter 'res' implicitly has an 'any' type.
+21:27:44.268 api/activities.ts(14,35): error TS7006: Parameter 'user' implicitly has an 'any' type.
+21:27:44.268 
+21:27:44.358 Build Completed in /vercel/output [34s]
+21:27:45.052 Deploying outputs...
+21:27:54.818 Deployment completed
+21:27:55.668 Creating build cache...
+21:29:05.426 Created build cache: 1:09.753 (m:ss.mmm)
+21:29:05.426 Uploading build cache [96.75 MB]
+21:29:06.802 Build cache uploaded: 1.380s
