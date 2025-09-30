@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { connectDB } from '../../lib/db.js';
-import * as storage from '../../lib/storage.js';
-import { corsHandler, withAuth } from '../../lib/auth.js';
+import { connectDB } from '../../../server/lib-vercel/db.js';
+import * as storage from '../../../server/lib-vercel/storage.js';
+import { corsHandler, withAuth } from '../../../server/lib-vercel/auth.js';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   console.log(`[Reminders Complete] ========== NEW REQUEST ==========`);

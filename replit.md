@@ -18,7 +18,8 @@ LeadFlow is a comprehensive Lead Management System built with TypeScript, Expres
   - Created `api/reminders/[id].ts` for update route (PUT)
   - Created `api/reminders/[id]/complete.ts` for complete action (POST, PUT)
   - Added extensive console logging throughout all endpoints for debugging
-  - Serverless function count: 11 of 12 (Vercel limit)
+  - **Moved library files**: Relocated `api/lib/*` to `server/lib-vercel/*` to prevent Vercel from counting them as serverless functions
+  - Final serverless function count: **11 of 12** (Vercel Hobby plan limit)
 
 # User Preferences
 

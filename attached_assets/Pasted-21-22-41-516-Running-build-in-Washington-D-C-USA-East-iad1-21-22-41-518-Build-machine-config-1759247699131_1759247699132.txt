@@ -1,0 +1,64 @@
+21:22:41.516 Running build in Washington, D.C., USA (East) – iad1
+21:22:41.518 Build machine configuration: 2 cores, 8 GB
+21:22:41.547 Cloning github.com/Aniket2234/LeadManagement (Branch: main, Commit: f0f3023)
+21:22:42.927 Cloning completed: 1.380s
+21:22:43.091 Restored build cache from previous deployment (BKAKkSXALtXg8HvdkzZg69LeSthu)
+21:22:43.641 Running "vercel build"
+21:22:44.033 Vercel CLI 48.1.6
+21:22:45.392 Running "install" command: `npm install`...
+21:22:47.407 
+21:22:47.408 up to date, audited 622 packages in 2s
+21:22:47.408 
+21:22:47.408 77 packages are looking for funding
+21:22:47.409   run `npm fund` for details
+21:22:47.434 
+21:22:47.434 5 vulnerabilities (3 moderate, 2 high)
+21:22:47.435 
+21:22:47.435 To address all issues (including breaking changes), run:
+21:22:47.435   npm audit fix --force
+21:22:47.436 
+21:22:47.436 Run `npm audit` for details.
+21:22:47.837 
+21:22:47.837 > rest-express@1.0.0 build
+21:22:47.837 > vite build
+21:22:47.837 
+21:22:48.152 [36mvite v6.3.6 [32mbuilding for production...[36m[39m
+21:22:48.220 transforming...
+21:22:49.185 Browserslist: browsers data (caniuse-lite) is 11 months old. Please run:
+21:22:49.186   npx update-browserslist-db@latest
+21:22:49.186   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+21:22:55.041 [32m✓[39m 2349 modules transformed.
+21:22:55.708 rendering chunks...
+21:22:55.721 computing gzip size...
+21:22:55.744 [2m../dist/public/[22m[32mindex.html                 [39m[1m[2m  1.95 kB[22m[1m[22m[2m │ gzip:   0.74 kB[22m
+21:22:55.745 [2m../dist/public/[22m[2massets/[22m[35mindex-B0Sce7Ft.css  [39m[1m[2m 66.18 kB[22m[1m[22m[2m │ gzip:  11.55 kB[22m
+21:22:55.745 [2m../dist/public/[22m[2massets/[22m[36mindex-CtSuDheY.js   [39m[1m[33m844.77 kB[39m[22m[2m │ gzip: 239.92 kB[22m
+21:22:55.745 [33m
+21:22:55.746 (!) Some chunks are larger than 500 kB after minification. Consider:
+21:22:55.746 - Using dynamic import() to code-split the application
+21:22:55.746 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+21:22:55.750 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+21:22:55.751 [32m✓ built in 7.57s[39m
+21:22:55.843 Installing dependencies...
+21:22:57.013 
+21:22:57.014 up to date in 1s
+21:22:57.014 
+21:22:57.014 77 packages are looking for funding
+21:22:57.014   run `npm fund` for details
+21:22:57.310 Using TypeScript 5.6.3 (local user-provided)
+21:23:06.583 Using TypeScript 5.6.3 (local user-provided)
+21:23:08.259 Using TypeScript 5.6.3 (local user-provided)
+21:23:09.775 Using TypeScript 5.6.3 (local user-provided)
+21:23:11.224 Using TypeScript 5.6.3 (local user-provided)
+21:23:12.739 Using TypeScript 5.6.3 (local user-provided)
+21:23:14.192 Using TypeScript 5.6.3 (local user-provided)
+21:23:15.697 Using TypeScript 5.6.3 (local user-provided)
+21:23:16.894 Using TypeScript 5.6.3 (local user-provided)
+21:23:18.247 Using TypeScript 5.6.3 (local user-provided)
+21:23:19.703 Using TypeScript 5.6.3 (local user-provided)
+21:23:21.574 Using TypeScript 5.6.3 (local user-provided)
+21:23:22.968 Using TypeScript 5.6.3 (local user-provided)
+21:23:24.339 Using TypeScript 5.6.3 (local user-provided)
+21:23:25.701 Build Completed in /vercel/output [40s]
+21:23:26.515 Deploying outputs...
+21:23:31.687 Error: No more than 12 Serverless Functions can be added to a Deployment on the Hobby plan. Create a team (Pro plan) to deploy more. Learn More: https://vercel.link/function-count-limit

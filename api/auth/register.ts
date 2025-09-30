@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { connectDB } from '../lib/db.js';
+import { connectDB } from '../../server/lib-vercel/db.js';
 import { User } from '../../shared/schema.js';
-import { corsHandler, hashPassword, generateToken } from '../lib/auth.js';
+import { corsHandler, hashPassword, generateToken } from '../../server/lib-vercel/auth.js';
 import { insertUserSchema } from '../../shared/schema.js';
 import { z } from 'zod';
 
