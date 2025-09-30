@@ -1,0 +1,5 @@
+# Client-side routing - redirect all non-API routes to index.html
+/*    /index.html   200
+
+# API routes - redirect to your backend (update the URL)
+/api/*  https://your-backend-deployment.herokuapp.com/api/:splat  200

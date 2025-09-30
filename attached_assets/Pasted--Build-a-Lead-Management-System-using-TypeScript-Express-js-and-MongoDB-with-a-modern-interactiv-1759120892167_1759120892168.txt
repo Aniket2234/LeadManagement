@@ -1,0 +1,91 @@
+> *Build a Lead Management System using TypeScript, Express.js, and MongoDB with a modern interactive dashboard.*
+>
+> ## Requirements
+>
+> ### 1. Authentication
+>
+> * User registration and login with JWT-based authentication.
+> * Basic user model with fields: name, email, password, createdAt.
+>
+> ### 2. Lead Management
+>
+> * CRUD operations for leads.
+> * Lead fields:
+>
+>   * name (string, required)
+>   * email (string, optional)
+>   * phone (string, optional)
+>   * company (string, optional)
+>   * source (enum: "Website", "Referral", "Ad", "Other")
+>   * status (enum: "New", "Contacted", "Qualified", "Converted", "Lost")
+>   * tags (array of strings)
+>   * notes (array of note objects with text + timestamp)
+>   * createdAt and updatedAt timestamps.
+>
+> ### 3. Lead Interaction Tracking
+>
+> * Add notes/comments for each lead.
+> * Store activity log for each lead (actions: created, updated, status changed, note added).
+>
+> ### 4. Pipeline & Stages
+>
+> * Leads should move through stages: *New → Contacted → Qualified → Converted → Lost.*
+> * API to update lead status.
+>
+> ### 5. Search & Filters
+>
+> * Search leads by name, email, or phone.
+> * Filter by status, source, createdAt range.
+>
+> ### 6. Notifications & Reminders (Basic)
+>
+> * Users can set *follow-up reminders* for a lead with a date and message.
+> * API to fetch today’s reminders.
+>
+> ### 7. Dashboard (Interactive Analytics)
+>
+> Build a *responsive, modern, and creative dashboard* that displays insights with *interactive charts and graphs.*
+>
+> * *Summary Metrics (Top Cards)*
+>
+>   * Total leads
+>   * New leads today
+>   * Leads converted this week
+>   * Leads lost this month
+> * *Charts & Visualizations*
+>
+>   * 📊 *Leads by Status* (Pie/Donut chart showing New, Contacted, Qualified, Converted, Lost).
+>   * 📈 *Leads Created Over Time* (Line/Bar chart with daily, weekly, monthly filters).
+>   * 📊 *Leads by Source* (Bar chart or pie chart: Website, Referral, Ad, Other).
+>   * 📈 *Conversion Trend* (Monthly conversion rate %).
+>   * 📅 *Daily/Weekly/Monthly reports* toggle.
+> * *Reminders & Upcoming Tasks Widget*
+>
+>   * Show today’s follow-ups.
+>   * Show overdue reminders.
+> * *Recent Activity Feed*
+>
+>   * List of latest lead updates (status changes, notes added, new leads).
+> * *Export & Reports*
+>
+>   * API to export leads and analytics as CSV/Excel.
+>   * Option to download monthly summary report.
+>
+> ### 8. Development Guidelines
+>
+> * Use *Express.js with TypeScript* (routes, controllers, services, models).
+> * Use *Mongoose* for MongoDB schema.
+> * Apply *JWT middleware* for protected routes.
+> * Provide *REST APIs* for all features.
+> * Maintain *clean folder structure*:
+>
+>   
+>   src/
+>    ├── config/ (db, env)
+>    ├── models/ (mongoose schemas)
+>    ├── controllers/
+>    ├── services/
+>    ├── routes/
+>    ├── middlewares/
+>    └── utils/
+>   

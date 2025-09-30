@@ -1,0 +1,45 @@
+chunk-WERSD76P.js?v=1621bc3d:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+client:536 WebSocket connection to 'wss://54e24497-b639-4d75-9b5c-b134889566c1-00-1d3k5iojmyzeo.picard.replit.dev/?token=gqVk_VVM5JAO' failed: 
+setupWebSocket @ client:536
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=gqVk_VVM5JAO' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+@radix-ui_react-dialog.js?v=1621bc3d:337 Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+(anonymous) @ @radix-ui_react-dialog.js?v=1621bc3d:337
+@radix-ui_react-dialog.js?v=1621bc3d:337 Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+(anonymous) @ @radix-ui_react-dialog.js?v=1621bc3d:337
+@radix-ui_react-dialog.js?v=1621bc3d:337 Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+(anonymous) @ @radix-ui_react-dialog.js?v=1621bc3d:337
+api/reminders:1  Failed to load resource: the server responded with a status of 400 (Bad Request)
+api/reminders:1  Failed to load resource: the server responded with a status of 400 (Bad Request)
+api/reminders:1  Failed to load resource: the server responded with a status of 400 (Bad Request)
+api/reminders:1  Failed to load resource: the server responded with a status of 400 (Bad Request)
+api/reminders:1  Failed to load resource: the server responded with a status of 400 (Bad Request)
+api.ts:11  POST https://54e24497-b639-4d75-9b5c-b134889566c1-00-1d3k5iojmyzeo.picard.replit.dev/api/reminders 400 (Bad Request)
+apiCall @ api.ts:11
+createReminder @ api.ts:88
+mutationFn @ reminders.tsx:71
+fn @ @tanstack_react-query.js?v=1621bc3d:1189
+run @ @tanstack_react-query.js?v=1621bc3d:494
+start @ @tanstack_react-query.js?v=1621bc3d:536
+execute @ @tanstack_react-query.js?v=1621bc3d:1225
+await in execute
+mutate @ @tanstack_react-query.js?v=1621bc3d:2630
+(anonymous) @ @tanstack_react-query.js?v=1621bc3d:3295
+handleSubmit @ reminders.tsx:120
+callCallback2 @ chunk-WERSD76P.js?v=1621bc3d:3674
+invokeGuardedCallbackDev @ chunk-WERSD76P.js?v=1621bc3d:3699
+invokeGuardedCallback @ chunk-WERSD76P.js?v=1621bc3d:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-WERSD76P.js?v=1621bc3d:3736
+executeDispatch @ chunk-WERSD76P.js?v=1621bc3d:7014
+processDispatchQueueItemsInOrder @ chunk-WERSD76P.js?v=1621bc3d:7034
+processDispatchQueue @ chunk-WERSD76P.js?v=1621bc3d:7043
+dispatchEventsForPlugins @ chunk-WERSD76P.js?v=1621bc3d:7051
+(anonymous) @ chunk-WERSD76P.js?v=1621bc3d:7174
+batchedUpdates$1 @ chunk-WERSD76P.js?v=1621bc3d:18913
+batchedUpdates @ chunk-WERSD76P.js?v=1621bc3d:3579
+dispatchEventForPluginEventSystem @ chunk-WERSD76P.js?v=1621bc3d:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-WERSD76P.js?v=1621bc3d:5478
+dispatchEvent @ chunk-WERSD76P.js?v=1621bc3d:5472
+dispatchDiscreteEvent @ chunk-WERSD76P.js?v=1621bc3d:5449
